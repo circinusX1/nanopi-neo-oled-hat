@@ -1,14 +1,15 @@
 ## my first and I hope my last python script 
 
-    * For NANO PI NEO OLED HAT, after you have cloned the NanoHatOLED you can cutomize and display your text.
-    * KIll all started OLED processes in /etc/rc.local
+  * For NANO PI NEO OLED HAT, 
+     * Clone the: NanoHatOLED.
+  * Kill all started OLED processes and scripts at: /etc/rc.local. 
 
 ```
 cd NanoHatOLED/BakeBit/Software/Python
 
 ```
-    * Make a new python file there.
-    * Copy following content
+  * Make a new python file there.
+  * Copy following content
 
 ```
 
@@ -83,15 +84,16 @@ while True:
     draw_page()
 ```
 
-    * The run
+  * The run
     
 ```
 pi@NanoPi-NEO:~/oled/NanoHatOLED/BakeBit/Software/Python$ sudo python ./xxxx.py
 
 ```
-    * You can start '/oled/NanoHatOLED/BakeBit/Software/Python$ sudo python ./xxxx.py' in /etc/rc.local
-    * To display test echo some stirngs in /tmp/oled
+  * You can start '/oled/NanoHatOLED/BakeBit/Software/Python$ sudo python ./xxxx.py' in /etc/rc.local
+  * To display test echo some stirngs in /tmp/oled
     
 ```    
 echo -e "first line \n second line \n  third line \n fourth line " > /tmp/oled
+
 ```
