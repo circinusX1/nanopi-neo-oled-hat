@@ -1,5 +1,7 @@
 ## my first and I hope my last python script 
 
+# For C++ version check the forum at: https://redypis.org/
+
   * For NANO PI NEO OLED HAT, 
      * Clone the: NanoHatOLED.
   * Kill all started OLED processes and scripts at: /etc/rc.local. 
